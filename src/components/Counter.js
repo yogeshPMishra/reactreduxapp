@@ -10,9 +10,9 @@ function Counter() {
   return (
     <div>
         <p>
-            <button onClick={()=>dispatch(decrement(5))}>-</button>
+            <button onClick={()=>dispatch(decrement(5))} className="btn">-</button>
             {initialState} 
-            <button onClick={()=>dispatch(increment(5))}>+</button>
+            <button onClick={()=>dispatch(increment(5))} className="btn">+</button>
         </p>
     </div>
   )
